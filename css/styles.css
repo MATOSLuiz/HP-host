@@ -7,7 +7,7 @@ body, textarea{
 }
 
 h1, h2, h3{
-    color: #292514;
+    color: #3f3f3e;
 }
 
 p{
@@ -207,16 +207,14 @@ nav{
     font-size: 20px;
     font-weight: bold;
     color: #fff;
-    background-color: #202B34;
+    background-color: #1b1b1b;
     padding-top: 50px;
     padding-bottom: 20px;
-    border-radius: 5px;
 }
 
 .plan .plan-btn{
     background-color: #e9bf02;
     color: #fff;
-    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -224,10 +222,111 @@ nav{
     background-color: #b90a0a;
 }
 
+/* buscar dominio */
+
+.searchdomain-container{
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.searchdomain-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p{
+    color: #b5b5b5;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input{
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type="text"]{
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.searchdomain-container input[type="submit"]{
+    background-color:#c27013;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.contact-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2{
+    font-size: 36px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"]{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c27013;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 /* Atribuições
 logo
 <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
-
 */
