@@ -94,6 +94,136 @@ nav{
     font-size: 25px;
 }
 
+/* Especialidades */
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.specialties-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-user-shield{
+    color: #b90a0a;
+}
+
+.fa-tachometer-alt{
+    color: #e9bf02;
+}
+
+.fa-question-circle{
+    color: #b90a0a;
+}
+
+.specialties-container ul li h3{
+    color: #333;
+}
+
+.specialties-container ul li p{
+    line-height: 24px;
+    color: #70747A;
+}
+
+/* preços */
+
+.price-container{
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.price-container h1{
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.price-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan{
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9eA;
+    color: #333;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e9bf02;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202B34;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.plan .plan-btn{
+    background-color: #e9bf02;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plan .recommended{
+    background-color: #b90a0a;
+}
+
 
 
 /* Atribuições
